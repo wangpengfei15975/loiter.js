@@ -1,6 +1,6 @@
 ## loiter
 一款基于原生js的组件，灵感来于知乎登陆页背景，比[particles.js](https://github.com/VincentGarreau/particles.js)更加轻量。  
-[demo](http://www.chengfeilong.com/loiter)
+[demo](http://www.chengfeilong.com/loiter.js)
 ## 使用方式
 html
 ```html
