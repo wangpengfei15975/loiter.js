@@ -46,16 +46,16 @@ var loiter = {
                 cir.x += cir.moveX;
                 cir.y += cir.moveY;
                 if(self.mode == 'impact'){
-                    if (cir.x > self.WIDTH){
-                        cir.x = self.WIDTH;
+                    if (cir.x > self.WIDTH - cir.r){
+                        cir.x = self.WIDTH - cir.r;
                         cir.moveX = - cir.moveX;
                     }
                     else if (cir.x < 0){
                         cir.x = 0;
                         cir.moveX = - cir.moveX;
                     }
-                    if (cir.y > self.HEIGHT){
-                        cir.y = self.HEIGHT;
+                    if (cir.y > self.HEIGHT - cir.r){
+                        cir.y = self.HEIGHT - cir.r;
                         cir.moveY = - cir.moveY;
                     }
                     else if (cir.y < 0){
