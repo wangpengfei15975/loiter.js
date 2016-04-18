@@ -9,7 +9,7 @@ html
     loiter.start();
 </script>
 ```
-效果：
+效果：  
 ![default](./images/default.gif)
 ## 配置对象
 
@@ -40,7 +40,8 @@ js
     });
 </script>
 ```
-配置：
-![config](./images/config.png)
-效果：
+配置：  
+![config](./images/config.png)  
+
+效果：  
 ![skyblue](./images/skyblue.gif)
