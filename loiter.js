@@ -50,16 +50,16 @@ var loiter = {
                         cir.x = self.WIDTH - cir.r;
                         cir.moveX = - cir.moveX;
                     }
-                    else if (cir.x < 0){
-                        cir.x = 0;
+                    else if (cir.x < cir.r){
+                        cir.x = cir.r;
                         cir.moveX = - cir.moveX;
                     }
                     if (cir.y > self.HEIGHT - cir.r){
                         cir.y = self.HEIGHT - cir.r;
                         cir.moveY = - cir.moveY;
                     }
-                    else if (cir.y < 0){
-                        cir.y = 0;
+                    else if (cir.y < cir.r){
+                        cir.y = cir.r;
                         cir.moveY = - cir.moveY;
                     }
                 }else if(self.mode == 'through'){
