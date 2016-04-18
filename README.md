@@ -4,6 +4,7 @@
 ## 使用方式
 html
 ```html
+<canvas id="loiter"></canvas>
 <script src="loiter.js"></script>
 <script>
     loiter.start();
