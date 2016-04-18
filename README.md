@@ -2,6 +2,7 @@
 一款基于原生js的组件，灵感来于知乎登陆页背景，比[particles.js](https://github.com/VincentGarreau/particles.js)更加轻量。  
 [demo](http://www.chengfeilong.com/loiter.js)
 ## 使用方式
+在html结构中写入id为loiter的canvas标签，引入loiter.js或者压缩版loiter.min.js，然后调用loiter.start();
 html
 ```html
 <canvas id="loiter"></canvas>
